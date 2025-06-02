@@ -1,1 +1,1 @@
-# Zad_2 chmury
+# Zad_2 programowanie aplikacji
