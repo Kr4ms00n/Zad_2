@@ -33,6 +33,6 @@ To repozytorium zawiera aplikację pogodową Flask i zaimplementowany potok **Co
 
 ## Potwierdzenie Działania
 
-Potok GitHub Actions został pomyślnie uruchomiony i zakończył się sukcesem. Możesz to zweryfikować tutaj:https://github.com/Kr4ms00n/Zad_2/actions/runs/15400611599
+Potok GitHub Actions został pomyślnie uruchomiony i zakończył się sukcesem. Można to zweryfikować tutaj:https://github.com/Kr4ms00n/Zad_2/actions/runs/15400611599
 
 Obraz Docker został zbudowany dla obu architektur i opublikowany w GitHub Container Registry.
