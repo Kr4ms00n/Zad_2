@@ -10,7 +10,7 @@ on:
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
-  DOCKERHUB_CACHE_REPO: ${{ secrets.DOCKERHUB_USERNAME }}/weather-app-cache
+  DOCKERHUB_CACHE_REPO: ${{ secrets.DOCKERHUB_USERNAME }}/buildcache
 
 jobs:
   build-and-test:
