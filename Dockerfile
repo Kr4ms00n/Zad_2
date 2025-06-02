@@ -9,9 +9,7 @@ LABEL org.opencontainers.image.version="1.0.0"
 RUN groupadd -r appuser && useradd -r -g appuser appuser
 
 WORKDIR /app
-
-
-RUN apt-get update && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get upgrade -y && apt-get install -y curl && rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
